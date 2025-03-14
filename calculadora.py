@@ -63,14 +63,7 @@ def crear_ventana():
         vent, text="Calculadora basica para Suma y Resta", font=("Arial", 14), fg="#933571")
     label_hi.pack(pady=20)
 
-    # Definir la Función SUMA
-    def fnSuma():
-        n1 = txt1.get()
-        n2 = txt2.get()
-        r = float(n1) + float(n2)
-        txt3.delete(0, 'end')
-        txt3.insert(0, r)
-
+   
     def fnSalir():
         vent.destroy()
 
